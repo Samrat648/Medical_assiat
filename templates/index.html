@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Project</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Medical Help</h2>
+
+<form method="POST">
+
+<input
+type="text"
+name="text"
+placeholder="Enter Text"
+required>
+
+<button>Submit</button>
+
+</form>
+
+{% if result %}
+
+<h3>{{result}}</h3>
+
+{% endif %}
+
+</div>
+
+</body>
+
+</html>
